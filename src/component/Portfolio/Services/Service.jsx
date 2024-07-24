@@ -14,7 +14,7 @@ const toggleReadMore = () => {
   
       
         <div  className=" border border-gray-700 rounded-lg overflow-hidden shadow-lg relative">
-          <img src={image} alt={name} className="w-full h-48 object-cover" />
+          <img src={image} alt={name} className="lg:w-full lg:h-48 w-full object-cover" />
           <div className="p-4">
             <h2 className="text-lg font-semibold uppercase">
               {name}
