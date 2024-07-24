@@ -13,16 +13,16 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_q7fw8tc",
-        "template_y10yfz7",
+        "service_l7bwncp",
+        "template_r6nvzoe",
         form.current,
-        "0AGx-yacdwuJYI7go"
+        "lOej7hF1MNKpr8k0j"
       )
       .then(
         (result) => {
           console.log(result.text);
 
-          toast.success("Success Notification !", {
+          toast.success("Thank you for messaging me!", {
             position: toast.POSITION.TOP_RIGHT,
           });
     
@@ -33,6 +33,7 @@ const Contact = () => {
       );
     e.target.reset();
   };
+
   return (
     <section id="contact"
       style={{
@@ -40,11 +41,11 @@ const Contact = () => {
       }}
        className="sm:my-12"
     >
-      <div className="text-center pb-14 text-white contact_content">
+      <div className="text-center pb-14 contact_content">
         <br />
         <br />
-        <p className="text-4xl font-bold text-gradient">Contact Us</p>
-        <h1 className="lg:text-4xl sm:text-3xl">Stay connected with us</h1>
+        <p className="text-4xl font-bold py-8">Contact Us</p>
+        <h1 className="lg:text-4xl sm:text-3xl py-4">Stay connected with us</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
       <div className="w-[100%]">

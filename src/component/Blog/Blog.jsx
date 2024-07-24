@@ -3,11 +3,11 @@
 
 
 const Blog = ({ professional }) => {
-  console.log(professional)
+
   const { name, description, icon, bgClass } = professional;
   
   return (
-    <div className={`card  shadow-2xl  text-white lg:p-2 py-[40px] sm:w-[100%] sm:h-[100%] w-[300px] sh-[450px] shadow-3xl ${bgClass}`}>
+    <div className={`card  shadow-2xl  text-white lg:p-2 py-[40px] sm:w-[100%] sm:h-[100%] w-[400px] sh-[450px] shadow-3xl ${bgClass}`}>
       <div className="card-body">
         <h3 className="text-6xl"> {icon}</h3>
         <h1 className="text-1xl  font-bold">{name}</h1>

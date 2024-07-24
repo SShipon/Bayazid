@@ -7,7 +7,7 @@ import Coming from "../component/Coming/Coming";
 import Home from "../component/Home/Home";
 import Blogs from "../component/Blog/Blogs";
 import AllDetails from "../component/allDetails/AllDetails";
-
+import Login from "../component/Login/Login";
 
 export const router = createBrowserRouter([
     {
@@ -35,9 +35,9 @@ export const router = createBrowserRouter([
        
     },
     {
-     path:'/details:id',
-     element:<AllDetails></AllDetails>
-    
+     path:'details/:id',
+     element:<AllDetails></AllDetails>,
+     
     },
 
     {
@@ -53,6 +53,11 @@ export const router = createBrowserRouter([
 {
   path:'/coming',
   element:<Coming></Coming>,
+ 
+},
+{
+  path:'/login',
+  element:<Login></Login>,
  
 }
     ]
