@@ -28,7 +28,7 @@ const Service = ({ service }) => {
           </button>
         </p>
         <Rating
-          className="d-block text-[11px]"
+          className="d-block text-[15px] text-yellow-500"
           readonly
           initialRating={rating}
           fullSymbol="fas fa-star text-blue"
