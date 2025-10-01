@@ -1,6 +1,5 @@
 
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
-import resume from "../../../assets/abdur_rahman.pdf";
 import Icons from '../../../shared/Icons/Icons';
 import logo from '../../../assets/Portfolio/bayazid.png'
 const Banner = () => {
@@ -23,12 +22,12 @@ const Banner = () => {
            <p className=' lg:w-2/3 text-lg  lg:text-xl'>I am Professional <span className=' text-cyan-400'>SEO Developer</span> With <span className=' text-cyan-500'>With wordpress Developer </span>& facebook Marketer Skills Based on Client Desire.</p>
            <br />
              <div>
-            <a href={resume} download>
-              <button className="about__hero__btn about__hero__btn:hover gradient-border  font-bold">
-                <i className="fa-solid fa-download"></i> Resume
-              </button>
-            </a>
-          </div>
+  <a href="/abdur_rahman.pdf" download>
+    <button className="about__hero__btn about__hero__btn:hover gradient-border font-bold">
+      <i className="fa-solid fa-download"></i> Resume
+    </button>
+  </a>
+</div>
             <div>
               <Icons></Icons>
             </div>
