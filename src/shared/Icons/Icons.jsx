@@ -6,6 +6,7 @@ const Icons = () => {
                 <a href="https://www.facebook.com/bayazid.mahmud.900"><i className="fa-brands fa-facebook "></i></a>
                 <a href=""><i className="fa-brands fa-linkedin "></i></a>
                 <a href=""><i className="fa-brands fa-github "></i></a>
+                <a href="https://wa.me/8801400259020" target="_blank">  <i className="fa-brands fa-square-whatsapp"></i></a>
                 
             </div>
     );
