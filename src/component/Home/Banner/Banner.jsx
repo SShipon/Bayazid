@@ -1,6 +1,6 @@
 
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
-import resume from "../../../assets/ABDUR RAHMAN CV.pdf";
+import resume from "../../../assets/abdur_rahman.pdf";
 import Icons from '../../../shared/Icons/Icons';
 import logo from '../../../assets/Portfolio/bayazid.png'
 const Banner = () => {
