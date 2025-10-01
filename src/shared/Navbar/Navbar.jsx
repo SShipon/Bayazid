@@ -53,7 +53,7 @@ const Navbar = () => {
             className=" object-cover w-[50px] h-[50px]"
           />
           <span className="text-xl font-bold   hover:text-rose-500 transition-all duration-300">
-            Abdur__Rahman
+            Abdur__Rohman
           </span>
         </div>
         </div>

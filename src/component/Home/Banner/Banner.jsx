@@ -1,6 +1,6 @@
 
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
-import resume from "../../../assets/Bayazid.pdf";
+import resume from "../../../assets/ABDUR RAHMAN CV.pdf";
 import Icons from '../../../shared/Icons/Icons';
 import logo from '../../../assets/Portfolio/bayazid.png'
 const Banner = () => {
@@ -42,5 +42,22 @@ const Banner = () => {
         </div>
     );
 };
+ export default Banner;
 
-export default Banner;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
